@@ -2,16 +2,9 @@ import React from "react";
 import "./ImageCard.css";
 
 const imageCard = props => (
-  
-  <div className="game">
-    <div className="card">
-      <div className="img-container">
-      <button type="button" className="btn btn-outline-primary">
+    <div onCLick={() => props.clickCard(props)} className="card col-sm-2 p-2 m-4">
       <img alt={props.name} src={props.image} />
-      </button>
       </div>
-    </div>
-  </div>
 );
 
 export default imageCard;
