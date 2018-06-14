@@ -1,0 +1,44 @@
+.title {
+    max-width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: #2A77AE;
+    margin-bottom: 50px;
+    font-family: 'Cormorant Unicase', serif;
+
+  }
+  
+  .subtitle {
+    max-width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 50px;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .message-text {
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .scores {
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .correct {
+    max-width: 50%;
+    padding: 5 50 5 100px;
+    margin: 10px;
+
+  }
+
+  .high {
+    max-width: 50%;
+    padding: 5 50 5 100px;
+    margin: 10px;
+
+  }
